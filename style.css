@@ -63,44 +63,114 @@ border-radius: 30px;
 .fa-icon{
     color: #fff;
     font-size: x-large;
-    margin-top: 1%;
+    margin-top: 3%;
+    padding-right: 60px;
 }
 
-
+.icons{
+    width: 30%;
+}
 
 @media screen and (max-width:800px)
 { 
     .header-bar{
         display:none;
         overflow: hidden;
-        background-color: black;
+        /* background-color: black; */
     }
     .header-bar .search-bar input{
-        background-color: blue;
+        background-color:#FED700;
     }
-    .search-bar{
+    .search-bar input{
         display: none;
+        /* background-color: #FED700;
+        border: #FED700;
+        border: 0px; 
+        width: 0px;
+        color:#FED700;   */
+    }
+    .search-bar .category{
+        /* background-color: #FED700; */
+        /* color: #FED700; */
+        display: none;
+    }
+     .header-bar .search-bar{
+        /* background-color: #FED700; */
+        display: none;
+        width: 2%;
+        z-index: 1px;
     }
     .header-bar a {
         float: left;
-        color: #fff;
+        margin-left: -300px;
     }
 
     .second-nav{
         display: none;
     }
+    .icons{
+        width: 30%;
+    }
+    .fa-icon{
+        padding: 5px;
+    }
     
 }
 
+@media(max-width:500px)
+{ 
+   .header-bar .icons .fa-icon{
+
+        padding: 5px;
+        color: rgb(19, 14, 14);
+        font-size: 13px;
+        margin-top: 10px;
+    }
+   
+    .last{
+        margin-right: 3px;
+    }
+    .header-bar .search-bar{
+        background:#FED700;;
+        display: none;
+        width: 1%;
+        margin-left: 270px
+    }
+    .header-bar a {
+        float: left;
+        margin-left: -200px;
+    }
+     .header-bar .search-icon{
+        font-size:20px;
+        
+    }
+
+};
 
 
 /*-----------------
 nav bar
 -------------------*/
 
-.second-nav .list{
+.list{
     list-style: none;
     justify-content: space-between;
     align-items: center;
+    color: blue;
 }
 
+.slider{
+    height: 100vh;
+    background-image: url(https://static2.bigstockphoto.com/6/3/2/large2/236151877.jpg);
+    opacity: 6%;
+    
+}
+
+.side-pic{
+    height: 30vh;
+}
+
+@media(max-width:500px)
+{
+    
+}
