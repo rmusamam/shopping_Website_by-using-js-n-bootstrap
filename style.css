@@ -15,7 +15,7 @@ header-bar
     color: black;
     font-size: x-large;
     margin-top: 0.8%;
-    margin-right:-100px;
+    margin-right:-70px;
 }
 /*.header-bar form input {
 height: 80%;
@@ -66,14 +66,41 @@ border-radius: 30px;
     margin-top: 1%;
 }
 
+
+
+@media screen and (max-width:800px)
+{ 
+    .header-bar{
+        display:none;
+        overflow: hidden;
+        background-color: black;
+    }
+    .header-bar .search-bar input{
+        background-color: blue;
+    }
+    .search-bar{
+        display: none;
+    }
+    .header-bar a {
+        float: left;
+        color: #fff;
+    }
+
+    .second-nav{
+        display: none;
+    }
+    
+}
+
+
+
 /*-----------------
 nav bar
 -------------------*/
 
-.nav .list{
+.second-nav .list{
     list-style: none;
     justify-content: space-between;
     align-items: center;
 }
-
 
