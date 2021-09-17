@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.js">
     <title>Shopping website</title>
   </head>
   <body>
@@ -17,7 +18,7 @@
                 <h1 class="">
                     electro
                 </h1>
-                <a href="#"><i class="fas fa-bars"></i></a>
+                <a href="#"><i class="fas fa-bars" id="btnNav" ></i></a>
                 <div class="search-bar d-flex">
                     <input type="text" name="search-bar" id="header-search-bar" placeholder="-  Search for product " maxlength="15"  minlength="3" size="30" >
                    
@@ -28,7 +29,7 @@
                             <i class="fas fa-sort-up sort-up-icon"></i>
                             <i class="fas fa-sort-down sort-down-icon"></i>
                             </div>
-                        
+                         
                         </div>
                     </div>
                     
@@ -52,7 +53,7 @@
                 <p class="pl-5">All Departments <span><i class="fas fa-angle-down"></i></span></p>
                 <p class="text-danger">All Pages <span> <i class="fas fa-angle-down"></i></span></p>
                 <div  class="list-mid">
-                    <ul class="list d-flex justify-content-between">
+                    <ul class="list d-flex justify-content-between" style="list-style: none;">
                         <li class="pr-3">Featured Brands</li>
                         <li class="pr-3">Trending Brands</li>
                         <li class="pr-3">Gift Cards</li>
@@ -64,22 +65,65 @@
             </div>
         </section>
 
-        <section class="slider-section">
+        <nav class="nav">
+            <div class="nav__links">
+                <a href="#" class="nav__link">
+                    Dashboard
+                </a>
+                <a class="nav__link nav__link--active" href="#">
+                    Projects
+                </a>
+                <a class="nav__link" href="#">
+                    Security
+                </a>
+                <a class="nav__link" href="#">
+                    History
+                </a>
+                <a class="nav__link" href="#">
+                    Profile
+                </a>
+            </div>
+            <div class="nav__overlay"></div>
+        </nav>
+
+
+
+         <section class="slider-section"> 
             <div class="primary row ">
                 <div class="slider  row col-lg-9 col-md-6 ">
-                    <div class="slider-writting col-5 ">
-                        sjfkasjfkalsdjfk
+                    <div class="slider-writting  col-6 ">
+                      <h1 class="display-1">   The new 
+                      </h1>
+                      <h1 class="display-1">Standard</h1>
+                      <p>under favourable 360 cameras</p>
+                      <span>from</span>
+                      <h1 class="num fw-bold ">
+                          <sup>$</sup>
+                          749
+                          <sup>99</sup>
+                      </h1>
+                      
+                        <button type="button" class="buy-btn btn btn-warning btn-lg">Start Buying </button>
+ 
                     </div>
                     
-                    <div class="slider-pics col-7 bg-success">
-                        jsklfjaskdfjsad
+                    <div class="slider-pics col-6 ">
+                        <img src="./img/slider-img-1.png" alt="">
                     </div>
                 </div>
                 <div class="side-pic col-lg-3 col-md-6  bg-danger">
+                    <div class="card row ">
+                        <div class="img-section col-3 bg-warning">
+                            <h1>hello</h1>
+                        </div>
+                        <div class="text-section col-4 bg-dark">
+                            <h1>hello</h1>
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </section>
+        </section> -->
       
 
 
