@@ -235,12 +235,13 @@ nav bar
 slider Imag 
 ------------------- */
 .slider-pics img{
-    opacity: 100%;
+    /* opacity: 100%; */
+    margin-top: 0;
 }
 
 
 .slider{
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
     .slider::before{
@@ -256,9 +257,7 @@ slider Imag
     /* background: no-repeat; */
     /* background-size: cover; */
     }    
-.slider-pics img{
-    margin-top: 20%;
-}
+
 
 .slider .slider-writting {
     text-transform: uppercase;
@@ -294,5 +293,34 @@ color: red;
 side image of .slider
 --------------------- */
 
+.img-section img{
+    height: 100px;
+    margin: 3px;
+    width: 100%;
+}
 
+.card-class{
+    background:rgb(245, 236, 245);
+    margin: 5px;
+    height: 30%;
 
+    }
+    .functional-nav ul li{
+        list-style: none;
+        text-transform: uppercase;
+        padding: 20px;
+        padding-bottom: 0;
+        font-weight: 500;
+    }
+    
+    .functional-nav  {
+        margin-top: 4%;
+    }
+    .indicator{
+        height: 15px;
+        width: 2px;
+        border-radius: 20px;
+        color: #FED700;
+        margin-right: 20px;
+        background-color: rgb(180, 190, 190);
+    }
