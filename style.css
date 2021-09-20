@@ -324,3 +324,41 @@ side image of .slider
         margin-right: 20px;
         background-color: rgb(180, 190, 190);
     }
+    .cart{
+        background: #666666;
+        height: 40px;
+        width: 50px;
+        border-radius: 40px;
+        padding-top: 15px;
+        padding-left: 10px;
+        margin-top: -10px;
+    }
+
+    .card-class{
+    overflow-x: hidden;
+
+    }
+
+    .card-class:hover{
+        box-shadow: 1px 15px 9px 0 grey;
+        height: 350px;
+        
+    }
+
+    .card-class:hover .bottom-part i  {
+        display: block;
+        
+    }
+
+    .card-class:hover .last-section-card i  {
+        background: yellow;
+    }
+    .card-class:hover .bottom-part  {
+    border-top: 1px solid grey;
+    }
+    .bottom-part i{
+        display: none;
+        color: rgb(170, 167, 167);
+        margin-top: 10px;
+    }
+    
