@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const nav = document.querySelector(".nav");
+    const nav = document.querySelector(".side-nav");
 
     document.getElementById('btnNav').addEventListener("click", () => {
         nav.classList.add("nav--open");

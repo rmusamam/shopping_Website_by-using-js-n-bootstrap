@@ -156,15 +156,96 @@ Side Bar
 -------------------- */
 
 
+.inside-links{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+   
+    height: 3vh;
+    width: 500px;
+    background: #ffffff;
+     transform: translateX(-500px); 
+    transition: transform 0.3s;
+}
+
+
+.side-link{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    height: 3vh;
+    width: 500px;
+    background: #ffffff;
+     transform: translateX(-500px); 
+    transition: transform 0.3s;
+}
+.side-nav{
+    background: rgb(199, 172, 172);
+}
+
+.nav--open .nav__links {
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(216, 211, 211, 0.2);
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px 15px;
+    background: transform 0.2s;
+}
+
+
+
+.nav__link--active {
+    color: #009578;
+}
+
+.nav__link--active,
+.nav__link:hover {
+    background: #eeeeee;
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    visibility: hidden;
+    opacity: 10;
+    transition: opacity 0.3s;
+    z-index: 2;
+}
+
+.nav--open .nav__overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+/* 
+
 .nav__links {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
-    height: 100vh;
-    width: 250px;
+    z-index: 1000;
+    
+    width:500px ;
     background: #ffffff;
-    transform: translateX(-250px);
+    transform: translateX(0);
     transition: transform 0.3s;
 }
 
@@ -206,6 +287,7 @@ Side Bar
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s;
+    z-index: 998;
 }
 
 .nav--open .nav__overlay {
@@ -215,7 +297,7 @@ Side Bar
 
 #btnNav{
     cursor: pointer;
-}
+} */
 
 
 
@@ -257,6 +339,7 @@ slider Imag
         right: 0px;
         background-position: top center ;
     background-image: url(https://static2.bigstockphoto.com/6/3/2/large2/236151877.jpg);
+    z-index: -1;
     opacity: 3.0%;
     /* background: no-repeat; */
     /* background-size: cover; */
@@ -415,4 +498,20 @@ Deal Area
 .deal-row .card-class{
     /* height: 20rem; */
     /* overflow-y: hidden; */
+}
+
+
+/* ------------------
+drop down bar
+------------------ */
+
+.all-departments:hover .all-departments-list  {
+    display: block;
+    visibility: visible;
+}
+.nav-content a{
+    margin-top: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(85, 84, 82);
 }
