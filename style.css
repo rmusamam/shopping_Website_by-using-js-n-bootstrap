@@ -430,7 +430,11 @@ side image of .slider
     .card-class:hover{
         box-shadow: 1px 15px 9px 0 grey;
         /* height: 350px; */
+        /* transform: scale(0.71); */
         
+    }
+    .card-class:hover .middle-bar{
+        z-index: -1;
     }
 
     .card-class:hover .bottom-part i  {
@@ -438,7 +442,7 @@ side image of .slider
         
     }
 
-    .card-class:hover .last-section-card i  {
+    .inner .card-class:hover .last-section-card i  {
         background: yellow;
     }
     .card-class:hover .bottom-part  {
@@ -451,7 +455,7 @@ side image of .slider
     }
     /*carousel indecator class =ind */
     .ind{
-        top: 500px; ;
+        top: 400px; ;
     }
 
     /* carousel inner */
@@ -462,6 +466,9 @@ side image of .slider
 /* ---------------------
 Mid Bar Section 
 --------------------- */
+.middle-bar{
+    margin-top: 200px;
+}
 
 .mid-bar{
     height: 18vh;
@@ -482,14 +489,6 @@ Mid Bar Section
 
 .mid-bar button h1{
     margin-top: 0px;
-}
-
-/* -------------------
-Deal Area
-------------------- */
-.deal-row .card-class{
-    /* height: 20rem; */
-    /* overflow-y: hidden; */
 }
 
 
@@ -524,3 +523,22 @@ drop down bar
 }
 
 
+.all-pages-list:hover .primary{
+    position:absolute;
+    top:-33%;
+    z-index: -1;
+}
+
+
+
+
+/* -------------------
+Deal Area
+------------------- */
+.deal-data h4{
+    font-size: 40px;
+}
+.deal-row{
+    padding: 50px 15px;
+    /* font: em sans-serif; */
+} 
