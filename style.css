@@ -535,10 +535,78 @@ drop down bar
 /* -------------------
 Deal Area
 ------------------- */
+
+
 .deal-data h4{
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: light;
+    color: #555353;
+}
+.deal-data{
+    margin-left: 25px;
 }
 .deal-row{
     padding: 50px 15px;
-    /* font: em sans-serif; */
+    background: #caced1;
 } 
+.limited::before {
+    
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    background: #ddd;
+    top: 100px;
+    left: calc(50% - 60px);
+    
+
+}
+
+.limited::after {
+    
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height:2px;
+    background: rgb(172, 17, 17);
+    top: 100px;
+    left: calc(30% - 90px);
+    
+
+}
+ .deal .deal-row .card-class{
+    margin: 13px;
+    /* height: 23em; */
+} 
+
+.deal .deal-row .deal-data span {
+    font-size: 170px;
+    margin: 0 0 0 50px;
+}
+
+
+.deal .deal-row .deal-data p {
+    margin-left: 20px;
+}
+
+/* timer section  */
+.timer-box{
+    height: 60px;
+    width: 52px;
+    padding: 5px;
+    margin: 5px 20px;
+    background: #fff;
+    border-radius: 2px;
+    border:3px solid gold;
+}
+
+.deal .deal-row .deal-data .timer-box p {
+    margin: 10px;
+}
+
+
+/* Section smartphones and tablets */
+
+
