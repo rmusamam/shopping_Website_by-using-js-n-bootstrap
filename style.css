@@ -3,6 +3,12 @@ body{
     /* overflow-y: hidden; */
 }
 
+/* Generals */
+
+li{
+    list-style: none;
+}
+
 /* ---------------------
 header-bar
 --------------------- */
@@ -613,6 +619,37 @@ Deal Area
     padding: 20px;
 }
 
+.deal-main-div .deal-head-bar h1  {
+    
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
 .deal-main-div .deal-head-bar ul {
     margin-left: 20%;
+}
+
+.deal-main-div .deal-head-bar ul li span{
+    border: 3px solid rgb(188, 238, 9);
+    border-radius: 30px;
+    padding: 0 10px 0 10px;
+}
+.deal-main-div .deal-head-bar{
+    border-bottom: green;
+    box-shadow: grey 10 10 90 0.9;
+    box-shadow: grey  10 10 90 0.9;
+    /* /////to be continue///   // */
+}
+.deal-main-div .deal-secondary-part .deal-secondary-part-list {
+        /* padding-top: 60px;
+        padding-bottom: 30px; */
+    padding: 60px 2px 30px;
+}
+
+.deal-main-div .deal-secondary-part .deal-secondary-part-list li{
+
+    border-bottom:2px solid black;
+    font-size: 20px;
+    padding-bottom: 5px;
+    
 }
