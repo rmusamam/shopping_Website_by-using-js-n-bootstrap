@@ -607,6 +607,12 @@ Deal Area
 }
 
 
-/* Section smartphones and tablets */
+/*deal Section smartphones and tablets */
+.deal-main-div .deal-head-bar ul li{
+    list-style: none;
+    padding: 20px;
+}
 
-
+.deal-main-div .deal-head-bar ul {
+    margin-left: 20%;
+}
