@@ -608,16 +608,17 @@ Deal Area
     border:3px solid gold;
 }
 
-.deal .deal-row .deal-data .timer-box p {
+ .deal-row .deal-data .timer-box p {
     margin: 10px;
 }
 
 
-/*deal Section smartphones and tablets */
+/*ads Section smartphones and tablets */
 .deal-main-div .deal-head-bar ul li{
     list-style: none;
     padding: 20px;
 }
+
 
 .deal-main-div .deal-head-bar h1  {
     
@@ -635,21 +636,56 @@ Deal Area
     padding: 0 10px 0 10px;
 }
 .deal-main-div .deal-head-bar{
-    border-bottom: green;
-    box-shadow: grey 10 10 90 0.9;
-    box-shadow: grey  10 10 90 0.9;
+    border-bottom: 2px solid green;   
     /* /////to be continue///   // */
 }
+
+.deal-main-div .deal-head-bar h1 ::before {
+    content: '';
+}
 .deal-main-div .deal-secondary-part .deal-secondary-part-list {
-        /* padding-top: 60px;
-        padding-bottom: 30px; */
     padding: 60px 2px 30px;
 }
 
 .deal-main-div .deal-secondary-part .deal-secondary-part-list li{
 
-    border-bottom:2px solid black;
-    font-size: 20px;
-    padding-bottom: 5px;
+    border-bottom:2px solid grey;
+    font-size: 17px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    font-display: initial;
+    color: rgb(49, 48, 48);
+
     
+}
+
+.deal-main-div .deal-secondary-part {
+    margin: 0px;
+}
+.deal-main-div .deal-secondary-part .deal-secondary-part-list ul{
+    padding-right: 15px;
+}
+
+.deal-secondary-part .deal-secondary-part-pic{
+    padding: 0;
+}
+.deal-secondary-part-card-section-1 .card-class img{
+    width: 12rem;
+}
+
+.deal-secondary-part-card-section-1 .card-class {
+    width: 17rem;
+}
+.deal-secondary-part-pic img{
+    width: 100%;
+}
+.deal-secondary-part-card{
+    padding:3px;
+    
+
+}
+
+.deal-secondary-part-card-section-1{
+    height: 60vh;
+
 }

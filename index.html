@@ -48,15 +48,26 @@
             </div>      
         </section>
 
-        <section class="drop-down-bar" id="drop-down-bar">
+         <!-- <section class="drop-down-bar" id="drop-down-bar">
             <div class="row  container-fluid">
                 <div class="col">
                     <nav class="navbar dropdown-nav">
                         <ul class=" nav-content navbar-nav d-flex flex-row  vw-100 ">
                              <li class="my-2 nav-item mr-5 dropdown ">
-                                <a href="" class="nav-link dropdown-toggle all-departments" data-toggle="dropdown">
+                                 <a href="" class="nav-link dropdown-toggle all-departments" data-toggle="dropdown">
                                     <strong>All Departments</strong>
-                                </a>
+                                </a> 
+                                <div class="dropdown show">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Dropdown link
+                                    </a>
+                                  
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                  </div>
                                  <ul class="dropdown-menu all-departments-list ">
                                     
                                     <li class="dropdown-item "><a href=""  >
@@ -101,7 +112,7 @@
                                         Accessories 
                                     </a></li>
 
-                                </ul> 
+                                </ul>  
                             </li> 
                             <li class="all-pages-li my-2 mx-3 text-danger nav-item ml-5 dropdown   ">
                                 <a href="" class="nav-link dropdown-toggle all-p" data-toggle="dropdown">
@@ -224,7 +235,7 @@
                     </nav>
                 </div>
             </div>
-        </section>
+        </section>  -->
        
 
         <section class="side-nav_bar" id="side-nav_bar">
@@ -251,7 +262,42 @@
     
         </section>
 
-       
+        <Section class="container">
+            <ul class="nav nav-pills ">
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class=" mx- pl-5 "><a href="">Featured Brands</a></li>
+
+                <li class=" mx-3"><a href="">Trending Style </a></li>
+
+                <li class=" mx-3"><a href="">Featured Brands</a></li>
+                <li class="   float-right ml-auto"><a  href="">Free shipping on Order $50+      </a></li>
+
+              </ul>
+        </Section>
 
 
          <section class="slider-section"> 
@@ -855,9 +901,9 @@
                         <div class="card-class bg-white">
                                         
                             <p class="card-text">Laptop</p>
-                            <div class="card-body"></div>
-                            <h5 class="card-title">Laptop Screener</h5>
-                            
+                            <div class="card-body">
+                                <h5 class="card-title">Laptop Screener</h5>
+                            </div>
                             <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
                             
                             <div class="last-section-card d-flex mt-5">
@@ -875,24 +921,8 @@
             </div>
         </section> 
 
-        <!-- <section class="ads">
-            <div class="main-ads">
-                <h1>askfjakdsj</h1>
-                <header class="bg-warning">
-                    <h1>Smartphones & Tablets</h1>
-                
-                    <ul class="nav nav-inline">
-                        <li class="nav-item active">
-                            <span class="nav-link">Bestsellers</span>
-                        </li>
-                        <li class="a">17 inch</li>
-                        <li class="a">15 inch</li>
-                        <li class="a">12.3 inch</li>
-                    </ul>
-                </header>
-            </div>
-        </section> -->
-        <section id="deal" class="deal  bg-light">
+        
+        <section id="ads" class="ads mt-5 container bg-light">
             <div class="deal-main-div">
                 <header class="bg-danger deal-head-bar d-flex vw-70">
                     <h1>SmartPhone & Tablets</h1>
@@ -904,8 +934,8 @@
 
                     </ul>
                 </header>
-                <div class="deal-secondary-part row">
-                    <div class="deal-secondary-part-list bg-danger list col-2">
+                <div class="deal-secondary-part  d-flex row">
+                    <div class="deal-secondary-part-list  bg-danger list col-2">
                         <ul>
                             <li>Featured Phone </li>
                             <li>Mobile Phone </li>
@@ -916,6 +946,127 @@
                             <li>Featured Tablets </li>
                             <li>Featured Accessories     </li>
                         </ul>
+                    </div>
+                    <div class="deal-secondary-part-pic col-4">
+                        <img src="./img/newSeason.jpg" alt="">
+                    </div>
+                    <div class="deal-secondary-part-card col-6" style="padding: 0;">
+                        <div class="deal-secondary-part-card-section-1  d-flex ">
+                            <div class="card-class bg-white">
+                                        
+                                <p class="card-text">Laptop</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laptop Screener</h5>
+                                </div>
+                                <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
+                                
+                                <div class="last-section-card d-flex mt-5">
+                                    <p class="ml-3 ">$20000</p>
+                                <i class="cart ml-5  fas fa-shopping-cart "></i>    
+                            
+                                </div>
+                                <div class="bottom-part row text-center">
+                                    <i class="far fa-heart">WishList</i>
+                                    <i class="far fa-heart">Compare</i>
+                                </div>
+                            </div>
+                            <div class="card-class bg-white">
+                                        
+                                <p class="card-text">Laptop</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laptop Screener</h5>
+                                </div>
+                                <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
+                                
+                                <div class="last-section-card d-flex mt-5">
+                                    <p class="ml-3 ">$20000</p>
+                                <i class="cart ml-5  fas fa-shopping-cart "></i>    
+                            
+                                </div>
+                                <div class="bottom-part row text-center">
+                                    <i class="far fa-heart">WishList</i>
+                                    <i class="far fa-heart">Compare</i>
+                                </div>
+                            </div>
+                            <div class="card-class bg-white">
+                                        
+                                <p class="card-text">Laptop</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laptop Screener</h5>
+                                </div>
+                                <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
+                                
+                                <div class="last-section-card d-flex mt-5">
+                                    <p class="ml-3 ">$20000</p>
+                                <i class="cart ml-5  fas fa-shopping-cart "></i>    
+                            
+                                </div>
+                                <div class="bottom-part row text-center">
+                                    <i class="far fa-heart">WishList</i>
+                                    <i class="far fa-heart">Compare</i>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        <div class="deal-secondary-part-card-section-1  d-flex ">
+                            <div class="card-class bg-white">
+                                        
+                                <p class="card-text">Laptop</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laptop Screener</h5>
+                                </div>
+                                <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
+                                
+                                <div class="last-section-card d-flex mt-5">
+                                    <p class="ml-3 ">$20000</p>
+                                <i class="cart ml-5  fas fa-shopping-cart "></i>    
+                            
+                                </div>
+                                <div class="bottom-part row text-center">
+                                    <i class="far fa-heart">WishList</i>
+                                    <i class="far fa-heart">Compare</i>
+                                </div>
+                            </div>
+                            <div class="card-class bg-white">
+                                        
+                                <p class="card-text">Laptop</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laptop Screener</h5>
+                                </div>
+                                <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
+                                
+                                <div class="last-section-card d-flex mt-5">
+                                    <p class="ml-3 ">$20000</p>
+                                <i class="cart ml-5  fas fa-shopping-cart "></i>    
+                            
+                                </div>
+                                <div class="bottom-part row text-center">
+                                    <i class="far fa-heart">WishList</i>
+                                    <i class="far fa-heart">Compare</i>
+                                </div>
+                            </div>
+                            <div class="card-class bg-white">
+                                        
+                                <p class="card-text">Laptop</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Laptop Screener</h5>
+                                </div>
+                                <img class="card-img-top" src="./img/download-1.jpg" alt="Card image cap">
+                                
+                                <div class="last-section-card d-flex mt-5">
+                                    <p class="ml-3 ">$20000</p>
+                                <i class="cart ml-5  fas fa-shopping-cart "></i>    
+                            
+                                </div>
+                                <div class="bottom-part row text-center">
+                                    <i class="far fa-heart">WishList</i>
+                                    <i class="far fa-heart">Compare</i>
+                                </div>
+                            </div>
+                            
+
+                        </div>
                     </div>
                 </div>
 
